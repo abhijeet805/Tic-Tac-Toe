@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" media="screen and (max-width:500px)" href="phone.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <title>Tic-Tac-Toe</title>
+    
+</head>
+<body>
+
+    <div class="registration">
+        <div class="first">
+             <label class="label">Enter First Name(O):</label>
+             <input type="text" name="t1" class="name1"><br>
+        </div>
+
+        <div class="second">
+         <label class="label">Enter Second Name(X):</label>
+         <input type="text" name="t2" class="name2">
+        </div>
+
+         <button class="start">START</button>
+    </div>
+
+    <div class="msg-container hide">
+        <p id="msg">Winner</p>
+        
+        <button class="new-game">New Game</button>
+    </div>
+     <main>
+        <h1>Tic-Tac-Toe</h1>
+         <div class="container">
+            <div class="game">
+                 <button class="box"></button>
+                 <button class="box"></button>
+                 <button class="box"></button>
+                 <button class="box"></button>
+                 <button class="box"></button>
+                 <button class="box"></button>
+                 <button class="box"></button>
+                 <button class="box"></button>
+                 <button class="box"></button>
+            </div>
+         </div>
+         <button class="reset-btn">Reset</button>
+         <button class="register-btn">Register</button>
+     </main>
+</body>
+<script src="registration.js"></script>
+<script src="script.js"></script>
+</html>

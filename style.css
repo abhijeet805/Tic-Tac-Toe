@@ -1,0 +1,184 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: #390040;
+   text-align: center;
+}
+
+.container{
+     height:70vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+.game{
+   height: 60vmin;
+   width: 60vmin;
+   text-align: center;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 1vmin;
+}
+.box{
+    width: 18vmin;
+    height: 18vmin;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    gap: 1.5vmin;
+    font-size: 5rem;
+   
+}
+
+/* .box:hover{
+    transform: rotate(45deg);
+} */
+#X{
+    color: rgb(72, 72, 171)
+}
+#O{
+    color: rgb(158, 37, 37);
+}
+
+.reset-btn,.new-game,.register-btn{
+    align-items: center;
+    padding: 13px;
+    font-size: 1.3rem;
+    border:none;
+    border-radius:7px;
+    color: white;
+    background-color: black;
+}
+.msg-container{
+    height: 100vmin;
+    font-size: 4rem;
+    color:White;
+}
+
+.hide{
+    display: none;
+}
+
+
+
+/* Registration CSS */
+.registration{
+    height: 117vmin;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: white;
+   
+}
+.name{
+    height: 35px;
+    width: 30;
+    font-size: 15px;
+}
+.first{
+    margin: 20px;
+}
+.start{
+    padding: 13px;
+    margin: 28px;
+    font-size: 1.3rem;
+    border:none;
+    border-radius:7px;
+    color: white;
+    background-color: black;
+}
+
+.name1,.name2{
+    font-size: 20px;
+    border-radius: 7px;
+}
+
+/* @media (max-width:768px){
+    .container {
+        height: 53vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+} */
+
+
+@media (min-width : 310px) and (max-width : 500px) {
+    .registration{
+        height: 1000vh;
+        font-size: 1.3rem;
+        font-weight: 500;
+        color: white;
+       
+    }
+    
+    .msg-container{
+        height: 200vmin;
+        font-size: 2rem;
+        color:White;
+    }
+    
+    .container{
+        height: 56vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #X{
+        color: rgb(72, 72, 171);
+        font-size:40px;
+    }
+    #O{
+        color: rgb(158, 37, 37);
+        font-size: 40px;
+    }
+
+    .reset-btn,.new-game,.register-btn{
+        align-items: center;
+        padding: 13px;
+        font-size: 1.3rem;
+        border:none;
+        border-radius:7px;
+        color: white;
+        background-color: black;
+    }
+}
+
+
+@media (max-width:310px){
+
+    .msg-container{
+        height: 232vmin;
+        font-size: 2rem;
+        color:White;
+    }
+    #X{
+        color: rgb(72, 72, 171);
+        font-size:30px;
+    }
+    #O{
+        color: rgb(158, 37, 37);
+        font-size: 30px;
+    }
+    .container{
+        height: 45vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .registration {
+        height: 221vmin;
+        font-size: 1.3rem;
+        font-weight: 500;
+        color: white;
+    }
+}
